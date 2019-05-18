@@ -1,0 +1,13 @@
+<?php
+
+$con = mysqli_connect("localhost","root","","prac_up");
+
+	if($con){
+		echo "You are Connected";
+
+	}else {
+
+		die();
+	}
+
+?>
